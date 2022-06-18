@@ -112,3 +112,9 @@ header {
   transform: translateX(0);
 }
 
+#map {
+  width: 100%;
+  left: 0;
+  height:500px;
+
+}
