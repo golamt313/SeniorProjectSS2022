@@ -118,3 +118,7 @@ header {
   height:500px;
 
 }
+
+.team-card {
+  height: 100px!important;
+}
