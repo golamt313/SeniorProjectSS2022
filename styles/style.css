@@ -4,7 +4,9 @@
 #myVideo {
     background-image: (url(./ezgif.com-gif-maker.gif));
 }
-
+body{
+  background-color: black;
+}
 header {
     position: relative;
     background-color: black;
