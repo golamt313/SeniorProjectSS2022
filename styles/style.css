@@ -364,6 +364,7 @@ body{margin-top:20px;
   }
 }
 
-.videoWrapper caption {
+.videoWrapper title {
   color: white;
+  z-index: 10;
 }
