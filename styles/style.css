@@ -363,3 +363,7 @@ body{margin-top:20px;
     margin-bottom: -100px!important;
   }
 }
+
+.videoWrapper caption {
+  color: white;
+}
