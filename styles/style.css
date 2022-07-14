@@ -358,4 +358,8 @@ body{margin-top:20px;
   .videoWrapper video{
     margin-top: -100px;
   }
+
+  .videoWrapper {
+    margin-bottom: -100px!important;
+  }
 }
