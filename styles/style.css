@@ -389,18 +389,42 @@ body{margin-top:20px;
   .videoWrapper video{
     margin-top: -100px;
   }
-
-  .videoWrapper {
-    margin-bottom: -100px!important;
+  
+  .landing-title {
+    font-size: 30px;
   }
+
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .landing-title {
     width: 100%;
     margin-left: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 30px;
+    margin-top: 100px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
+
+  .videoWrapper {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .videoWrapper video {
+    margin-left: -190px;
+    height: 100vh;
+    width: 1800px;
+    padding: 0;
+    overflow-x: hidden;
+    overflow: hidden;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+}
+
+body {
+  overflow-x: hidden;
 }
