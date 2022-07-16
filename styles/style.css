@@ -347,7 +347,8 @@ body{margin-top:20px;
   }
 
   .videoWrapper{
-    height: 0;
+    height: 100vh;
+    width: auto;
     margin: auto;
     position: relative;
     padding-top: 25px;
@@ -358,15 +359,19 @@ body{margin-top:20px;
 .videoWrapper video{
   pointer-events: none;
   margin-top: -500px;
+  width: 3000px;
 }
 
 .landing-title {
   width: 50%;
+  margin: 0;
   margin-left: 25%;
   position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   text-align: center;
   z-index: 1;
-  top: 20%;
   padding-top: 50px;
   padding-bottom: 50px;
   background: rgb(255, 255, 255, .5);
@@ -427,7 +432,7 @@ body{margin-top:20px;
 
   .videoWrapper video {
     margin-left: -190px;
-    height: 100vh;
+    height: 00vh;
     width: 400vw;
     padding: 0;
     overflow-x: hidden;
