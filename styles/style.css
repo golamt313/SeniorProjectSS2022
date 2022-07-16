@@ -465,13 +465,6 @@ body {
   overflow-x: hidden;
 }
 
-.about-img-left {
-  position: absolute;
-  height: 200px;
-  right: 0;
-  top: -80px;
-}
-
 #name {
   display: flex;
   width: 80%;
@@ -487,9 +480,16 @@ body {
   width: 100%;
 }
 
+.about-img-left {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  right: 0;
+}
+
 .about-img-right {
   position: absolute;
-  height: 175px !important;
+  height: 175px;
   left: 0;
   top: -60px;
 }
