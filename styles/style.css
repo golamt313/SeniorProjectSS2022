@@ -462,7 +462,6 @@ body {
   top: -80px;
 }
 
-<<<<<<< Updated upstream
 #name {
   display: flex;
   width: 80%;
@@ -478,15 +477,3 @@ body {
   width: 100%;
 }
 
-=======
-.about-img-right {
-  position: absolute;
-  height: 175px !important;
-  left: 0;
-  top: -60px;
-}
-
-.about-img-media {
-  display: none;
-}
->>>>>>> Stashed changes
