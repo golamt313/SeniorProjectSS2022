@@ -447,3 +447,18 @@ body {
   top: -80px;
 }
 
+#name {
+  display: flex;
+  width: 80%;
+}
+
+#email {
+  display: flex;
+  width: 80%;
+}
+
+#message {
+  display: flex;
+  width: 100%;
+}
+

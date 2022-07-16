@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Insurance Company</title>
+    <title>J&H Insurance - Contact Us</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -41,27 +41,16 @@
         </div>
     </nav>
 
-    <header class="h-50">
-
-        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
-        <div class="overlay"></div>
-    
-        <!-- The HTML5 video element that will create the background video on the header -->
-        <img src="../assets/ezgif.com-gif-maker.webp" alt="../assets/ezgif.com-gif-maker.gif">
-    
-        <!-- The header content -->
-        <div class="container h-100">
-            <div class="d-flex h-100 text-center align-items-center">
-                <div class="w-100 text-white">
-                    <h1 class="display-3"><br><br>Contact Us</h1>
-                </div>
-            </div>
-        </div>
-    </header>
+   <div class="videoWrapper">
+    <video width="100%" autoplay loop muted inline>
+      <source src="/assets/videoplayback.mp4" type="video/mp4">
+    </video>
+    <h1 class="landing-title">CONTACT US</h1>
+  </div>
   
 
  <!--Section: Contact v.2-->
-<section class="mb-4 mt-5 container">
+<section class="mb-4 mt-5 container w-55">
     <!--Section description-->
     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
         a matter of hours to help you.</p>
@@ -70,64 +59,20 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a style="background-color: rgb(232,193,95)" class="btn btn-primary border-0" onclick="validateForm();">Send</a>
-            </div>
-            <div class="status"></div>
+          <form action="https://submit-form.com/xazqme7O">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" required="" />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required="" />
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+              required=""
+            ></textarea>
+            <button style="background-color: rgb(232,193,95); margin-top: 10px;" class="btn btn-primary border-0" type="submit">Send</button>
+          </form>
         </div>
         <!--Grid column-->
 
