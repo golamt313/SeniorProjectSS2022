@@ -477,3 +477,13 @@ body {
   width: 100%;
 }
 
+.about-img-right {
+  position: absolute;
+  height: 175px !important;
+  left: 0;
+  top: -60px;
+}
+
+.about-img-media {
+  display: none;
+}
