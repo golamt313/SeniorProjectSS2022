@@ -405,12 +405,19 @@ body{margin-top:20px;
   .about-img-media {
     display: flex !important;
     position: relative;
-    height: 175px !important;
+    width: 100% !important;
+    height: auto;
     left: 0;
   }
 
-  .about-text {
-    width: 100%
+  .about-text-right {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  
+  .about-text-left {
+    text-align: center !important;
+    width: 100% !important;
   }
 }
 
@@ -491,6 +498,12 @@ body {
   display: none;
 }
 
-.about-text {
-  width: 50%
+.about-text-right {
+  text-align: right;
+  width: 50%;
+}
+
+.about-text-left {
+  text-align: left;
+  width: 50%;
 }
